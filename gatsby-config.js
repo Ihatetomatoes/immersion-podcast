@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Demo`
+    title: `The Immersion Podcast`
   },
   plugins: [
     {
@@ -8,6 +8,12 @@ module.exports = {
       options: {
         name: `src`,
         path: `${__dirname}/src/`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Playfair Display`, `source sans`]
       }
     },
     `gatsby-transformer-remark`,

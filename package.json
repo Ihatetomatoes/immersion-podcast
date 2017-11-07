@@ -1,11 +1,12 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "gatsby-immersion-podcast",
+  "description": "Immersion podcast website using Gatsby",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Petr Tichy - @ihatetomatoes",
   "dependencies": {
     "gatsby": "^1.9.45",
     "gatsby-link": "^1.6.17",
+    "gatsby-plugin-google-fonts": "0.0.3",
     "gatsby-plugin-react-helmet": "^1.0.5",
     "gatsby-plugin-styled-components": "^1.0.5",
     "gatsby-source-filesystem": "^1.5.2",
