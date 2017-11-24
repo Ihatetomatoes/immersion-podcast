@@ -4,10 +4,11 @@
   "version": "1.0.0",
   "author": "Petr Tichy - @ihatetomatoes",
   "dependencies": {
-    "gatsby": "^1.9.45",
+    "gatsby": "^1.9.119",
     "gatsby-link": "^1.6.17",
     "gatsby-plugin-google-fonts": "0.0.3",
     "gatsby-plugin-react-helmet": "^1.0.5",
+    "gatsby-plugin-sass": "^1.0.13",
     "gatsby-plugin-styled-components": "^1.0.5",
     "gatsby-source-filesystem": "^1.5.2",
     "gatsby-transformer-remark": "^1.7.15"

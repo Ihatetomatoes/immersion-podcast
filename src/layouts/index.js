@@ -4,62 +4,19 @@ import Link from "gatsby-link";
 import Helmet from "react-helmet";
 import styled from "styled-components";
 
-import "./index.css";
-
-const HeaderWrapper = styled.div`
-  background-color: #77b2ac;
-  padding: 1.45rem 1.0875rem;
-  text-align: center;
-`;
-
-const ContentWrapper = styled.div`
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 2.0875rem 2.45rem;
-`;
-
-const HeaderComp = styled.div`
-  background-color: #77b2ac;
-  margin-bottom: 1.45rem;
-  text-align: center;
-  display: inline-block;
-  margin: 0 auto;
-`;
-
-const HeadingLine1 = styled.span`
-  color: #fff;
-  text-align: left;
-  display: block;
-  font-size: 0.5em;
-  text-transform: lowercase;
-`;
-
-const HeadingLine3 = styled.span`
-  color: #fff;
-  text-align: right;
-  display: block;
-  font-size: 0.5em;
-  text-transform: lowercase;
-`;
+import "../css/styles.scss";
 
 const Header = () => (
-  <HeaderWrapper>
-    <HeaderComp>
-      <h1 style={{ margin: 0, fontWeight: "normal" }}>
-        <Link
-          to="/"
-          style={{
-            color: "#fc8c54",
-            fontFamily: "Playfair Display, serif",
-            textDecoration: "none"
-          }}
-        >
-          <HeadingLine1>The</HeadingLine1> Immersion{" "}
-          <HeadingLine3>Podcast</HeadingLine3>
+  <div className="header-wrapper">
+    <header>
+      <h1>
+        <Link to="/">
+          <span className="heading-line-1">The</span> Immersion{" "}
+          <span className="heading-line-3">Podcast</span>
         </Link>
       </h1>
-    </HeaderComp>
-  </HeaderWrapper>
+    </header>
+  </div>
 );
 
 const TemplateWrapper = ({ children }) => (
@@ -80,7 +37,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    <ContentWrapper>{children()}</ContentWrapper>
+    <div className="content-wrapper">{children()}</div>
   </div>
 );
 
