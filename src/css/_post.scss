@@ -1,0 +1,27 @@
+.post {
+  color: #222;
+  h1 {
+    color: $darkGreen;
+    margin-bottom: 0;
+  }
+  &__meta {
+    color: $baseGreen;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    position: relative;
+    &:after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 2px;
+      border-radius: 3px;
+      position: absolute;
+      bottom: 15px;
+      background-color: $superLightGreen;
+    }
+  }
+  &__date {
+    margin: 0;
+    text-transform: uppercase;
+  }
+}

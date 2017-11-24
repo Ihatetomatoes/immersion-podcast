@@ -1,36 +1,30 @@
 import React from "react";
 import Link from "gatsby-link";
-import styled from "styled-components";
-
-const Date = styled.p`
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-`;
-
-const Heading = styled.h1`
-  margin: 0 0 12px 0;
-  padding: 0;
-  font-size: 18px;
-`;
 
 export default ({ data }) => (
   <div>
-    {/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4> */}
-    {data.allMarkdownRemark.edges.map(({ node }) => (
-      <div key={node.id}>
-        <Date>
-          Date: <span color="#BBB">— {node.frontmatter.date}</span>
-        </Date>
-        <Link
-          to={node.fields.slug}
-          css={{ textDecoration: `none`, color: `inherit` }}
-        >
-          <Heading>{node.frontmatter.title} </Heading>
-        </Link>
-        <p>{node.excerpt}</p>
-      </div>
-    ))}
+    <h1>Episodes</h1>
+    <div className="episode-list">
+      {data.allMarkdownRemark.edges.map(({ node }) => (
+        <div key={node.frontmatter.title} className="episode">
+          <p className="episode__meta">
+            <span className="episode__season">{node.frontmatter.season}</span>
+            <span className="episode__duration">
+              {node.frontmatter.duration}
+            </span>
+          </p>
+          <h2 className="episode__title">
+            <Link to={node.fields.slug}>{node.frontmatter.title} </Link>
+          </h2>
+          <p className="episode__date">{node.frontmatter.date}</p>
+
+          <p className="episode__overview">{node.frontmatter.overview}</p>
+          <p>
+            <Link to={node.fields.slug}>View show details</Link>
+          </p>
+        </div>
+      ))}
+    </div>
   </div>
 );
 
@@ -42,12 +36,14 @@ export const query = graphql`
         node {
           frontmatter {
             title
+            overview
+            season
+            duration
             date(formatString: "DD MMMM, YYYY")
           }
           fields {
             slug
           }
-          excerpt
         }
       }
     }

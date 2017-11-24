@@ -25,19 +25,20 @@ h4 {
 
 h1 {
   margin-top: 0;
-  font-size: 5.063em;
+  font-size: 2.25em;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-size: 3.375em;
+  font-size: 2em;
 }
 
 h3 {
-  font-size: 2.25em;
+  font-size: 1.75em;
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 small,
@@ -46,9 +47,12 @@ small,
 }
 a:link,
 a:visited {
-  color: #fc8c54;
+  color: $orange;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
+}
+.content-wrapper {
+  color: $darkGreen;
 }

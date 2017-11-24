@@ -1,0 +1,79 @@
+.episode {
+  border: 2px $lightGreen solid;
+  padding: 20px 25px;
+  margin-bottom: 35px;
+  color: $baseGreen;
+  transition: 0.2s linear all;
+  &__meta {
+    color: $orange;
+    margin-top: 0;
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    position: relative;
+    &:after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 8px;
+      border-radius: 3px;
+      position: absolute;
+      bottom: 0;
+      background-color: $superLightGreen;
+    }
+    span {
+      flex: 1;
+      &:last-child {
+        text-align: right;
+      }
+    }
+  }
+  &__title {
+    margin-top: 0;
+    margin-bottom: 7px;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: $darkGreen;
+    a {
+      color: $darkGreen;
+      display: block;
+      transition: 0.2s linear all;
+      &:hover {
+        color: $orange;
+        text-decoration: none;
+      }
+    }
+  }
+  &__overview {
+    color: #222;
+  }
+  &__date {
+    margin-top: 0;
+    text-transform: uppercase;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .episode-list {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .episode {
+    width: 41%;
+    min-height: 320px;
+    &__title {
+      font-size: 2.2em;
+    }
+  }
+}
+
+@media (min-width: 950px) {
+  .episode {
+    width: 42%;
+  }
+}
