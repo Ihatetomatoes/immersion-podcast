@@ -1,9 +1,10 @@
 ---
 title: "Interview: Amelia Bellamy-Royds"
-date: "2017-11-06"
+date: "2017-11-02"
 overview: "In this conversation with Amelia Bellamy-Royds, we talk about all things SVG 2 and beyond."
 season: "Season 1"
 duration: "55 mins"
+file: "http://traffic.libsyn.com/svgimmersion/Immersion_Podcast_E4Styleguides.mp3"
 ---
 
 ## Show Links

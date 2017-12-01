@@ -1,0 +1,34 @@
+.hero {
+  background-color: $lightGreen;
+  .content-wrapper {
+    color: #fff;
+    font-size: 1.4em;
+    display: flex;
+    background: url("../images/img_immersion.svg") no-repeat 90% center;
+    background-size: auto 80%;
+    .post {
+      width: 60%;
+      padding: 20px 20px 20px 0;
+      color: #fff;
+      h1 {
+        font-size: 1.8em;
+        color: #fff;
+      }
+      &__meta {
+        padding-bottom: 10px;
+        &:after {
+          display: none;
+        }
+      }
+      .episode__meta {
+        &:after {
+          background-color: #73b8b1 !important;
+        }
+      }
+      &__date,
+      .episode__overview {
+        color: #fff;
+      }
+    }
+  }
+}

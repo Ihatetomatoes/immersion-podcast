@@ -1,9 +1,10 @@
 ---
 title: "Front End Updates"
-date: "2017-11-06"
+date: "2017-11-05"
 overview: "Today's Immersion Podcast is Petr solo talking about front end updates!"
 season: "Season 1"
 duration: "15 mins"
+file: "http://traffic.libsyn.com/svgimmersion/Immersion_Podcast_E4Styleguides.mp3"
 ---
 
 ## Show Links

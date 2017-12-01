@@ -1,9 +1,10 @@
 ---
 title: "Season One Introduction"
-date: "2017-11-06"
+date: "2017-11-03"
 overview: "An introduction to the new format, plans we have for the show."
 season: "Season 1"
 duration: "55 mins"
+file: "http://traffic.libsyn.com/svgimmersion/Immersion_Podcast_E4Styleguides.mp3"
 ---
 
 ## Show Links

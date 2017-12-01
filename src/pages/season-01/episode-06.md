@@ -1,9 +1,10 @@
 ---
 title: "Styleguides"
-date: "2017-11-06"
+date: "2017-11-10"
 overview: "Today's Immersion Podcast—Petr and Rob talk about Styleguides and Design Systems."
-season: "Season 1"
-duration: "25 mins"
+season: "Season 2"
+duration: "35 mins"
+file: "http://traffic.libsyn.com/svgimmersion/Immersion_Podcast_E4Styleguides.mp3"
 ---
 
 ## Show Links

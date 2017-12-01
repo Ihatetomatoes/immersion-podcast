@@ -1,9 +1,10 @@
 ---
 title: "Content Management Systems 2"
-date: "2017-11-06"
+date: "2017-11-04"
 overview: "Today's Immersion Podcast is all about content management systems aka CMS."
 season: "Season 1"
 duration: "55 mins"
+file: "http://traffic.libsyn.com/svgimmersion/Immersion_Podcast_E4Styleguides.mp3"
 ---
 
 ## Show Links
