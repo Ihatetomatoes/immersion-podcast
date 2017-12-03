@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Link from "gatsby-link";
+import AudioPlayer from '../components/AudioPlayer';
 
 const Hero = ({latestPost}) => {
-  const {title, overview, season, duration, date} = latestPost.frontmatter;
+  const {title, overview, season, duration, date, file} = latestPost.frontmatter;
   const {slug} = latestPost.fields;
     return (
     <div className="hero">
@@ -20,6 +21,7 @@ const Hero = ({latestPost}) => {
           <p className="episode__overview">
             {overview}
           </p>
+          <AudioPlayer file={file} />
           <p>
             <Link to={slug}>View show details</Link>
           </p>

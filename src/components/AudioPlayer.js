@@ -70,8 +70,8 @@ export default class AudioPlayer extends Component {
 
     handleProgress = () => {
         const audio = this.audioEl;
-        const progress = (audio.currentTime / audio.duration);
-        this.setState({
+        const progress = audio && (audio.currentTime / audio.duration);
+        audio && this.setState({
             progress,
             currentTime: secondstotime(audio.currentTime)
         })
@@ -81,7 +81,7 @@ export default class AudioPlayer extends Component {
         const progress = this.progressEl;
         const audio = this.audioEl;
         const scrubTime = (e.offsetX / progress.offsetWidth) * audio.duration;
-        audio.currentTime = scrubTime;
+        audio.currentTime = scrubTime || 0;
     }
 
     render() {
@@ -103,7 +103,7 @@ export default class AudioPlayer extends Component {
                         </div>
                         <p>
                             <span>
-                                {currentTime || '00:00:00'} / {duration}
+                                {currentTime || '00:00:00'} / {duration || '00:00:00'}
                             </span>
                             <span className="speed__controls">
                                 Speed {speed} <input onChange={this.handleRangeUpdate} type="range" name="speed" className="player__slider" min="0.5" max="2" step="0.1" value={speed} />

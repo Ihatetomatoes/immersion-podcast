@@ -1,0 +1,100 @@
+.bios {
+    border-top: 8px $superLightGreen solid;
+    h2 {
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-size: 2.25em;
+        color: $darkGreen;
+    }
+    .content-wrapper {
+        color:$textBaseColor;
+    }
+}
+
+.bios-box {
+    border: 2px $lightGreen solid;
+    &__item {
+        padding: 50px 20px;
+        display: flex;
+        &.alt {
+            padding-top: 0;
+            .bios-box__img {
+                order: 2;
+            }
+            .bios-box__copy {
+                padding: 0;
+            }
+        }
+        .bios-box__img {
+            flex: 1;
+            display: none;
+            max-width: 100%;
+            width: 50%;
+            height: auto;
+            img {
+                max-width: 100%;
+            }
+        }
+        .bios-box__copy {
+            flex: 1;
+            h3 {
+                font-size: 2em;
+                margin-bottom: 4px;
+                color: $darkGreen;
+                text-transform: uppercase;
+                position: relative;
+                padding-top: 30px;
+                margin-top: 0;
+                &:before {
+                    content: '';
+                    height: 8px;
+                    background-color: $superLightGreen;
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    border-radius: 4px;
+                }
+            }
+            .bio-title {
+                color: $orange;
+                margin-top: 0;
+                text-transform: uppercase;
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+                li {
+                    margin-bottom: 8px;
+                    position: relative;
+                    padding-left: 32px;
+                    &:before {
+                        content: '➡';
+                        font-size: 1.4em;
+                        height: 10px;
+                        margin-top: -17px;
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        color: $darkGreen;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        &__item {
+            padding: 50px;
+            .bios-box__copy {
+                padding-left: 50px;
+            }
+            &.alt {
+                .bios-box__copy {
+                    padding-right: 50px;
+                }
+            }
+        }
+        .bios-box__img {
+            display:block;
+        }
+    }
+}

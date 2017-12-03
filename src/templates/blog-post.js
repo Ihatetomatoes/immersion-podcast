@@ -7,7 +7,6 @@ export default ({ data }) => {
   return (
     <div>
       <div className="content-wrapper">
-        <AudioPlayer file={post.frontmatter.file} />
         <div className="post">
           <div className="post__meta">
             <p className="episode__meta">
@@ -17,6 +16,7 @@ export default ({ data }) => {
             <h1>{post.frontmatter.title}</h1>
             <p className="post__date">{post.frontmatter.date}</p>
           </div>
+          <AudioPlayer file={post.frontmatter.file} />
           <p>{post.frontmatter.overview}</p>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>

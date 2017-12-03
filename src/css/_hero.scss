@@ -1,21 +1,17 @@
 .hero {
-  background-color: $lightGreen;
+  background: $lightGreen url("../images/img_hero-bcg.png") no-repeat center center;
+  background-size: cover;
   .content-wrapper {
     color: #fff;
-    font-size: 1.4em;
-    display: flex;
-    background: url("../images/img_immersion.svg") no-repeat 90% center;
-    background-size: auto 80%;
+    font-size: 1em;
     .post {
-      width: 60%;
-      padding: 20px 20px 20px 0;
+      padding: 20px;
       color: #fff;
       h1 {
-        font-size: 1.8em;
+        font-size: 1.2em;
         color: #fff;
       }
       &__meta {
-        padding-bottom: 10px;
         &:after {
           display: none;
         }
@@ -28,6 +24,40 @@
       &__date,
       .episode__overview {
         color: #fff;
+      }
+    }
+    .player {
+      background-color: #5c9e96;
+      font-size: 0.9em;
+      margin-left: -40px;
+      margin-right: -40px;
+      width: calc(100% + 40px);
+    }
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .hero {
+    .post {
+      width: 60%;
+      padding: 20px 20px 20px 0;
+      h1 {
+        font-size: 1.8em;
+      }
+      &__meta {
+        padding-bottom: 10px;
+        margin-bottom: 0;
+      }
+    }
+    .content-wrapper {
+      display: flex;
+      background: url("../images/img_immersion.svg") no-repeat 90% center;
+      background-size: auto 80%;
+      font-size: 1.4em;
+      .player {
+        margin: 0 0 0 0;
+        width: calc(100% - 40px);
       }
     }
   }
