@@ -92,7 +92,7 @@ export default class AudioPlayer extends Component {
         };
         return (
             <div className="player">
-                <audio ref={(ref) => { this.audioEl = ref; }} className="player__audio viewer" controls>
+                <audio ref={(ref) => { this.audioEl = ref; }} className="player__audio viewer" preload="metadata">
                     <source src={file} type="audio/mp3" />
                 </audio>
                 <div className="player__controls">

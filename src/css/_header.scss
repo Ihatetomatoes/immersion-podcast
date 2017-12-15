@@ -1,6 +1,6 @@
 .header-wrapper {
   background-color: $darkGreen;
-  padding: 1.45rem 1.0875rem;
+  padding: 0.45rem 0.0875rem;
   text-align: center;
   header {
     background-color: $darkGreen;
@@ -10,8 +10,9 @@
     margin: 0 auto;
     font-family: "Playfair Display", serif;
     h1 {
-      font-size: 50px;
-      line-height: 40px;
+      font-size: 30px;
+      line-height: 20px;
+      
       margin: 0;
       a:hover {
         text-decoration: none;
@@ -36,5 +37,23 @@
 .content-wrapper {
   margin: 0 auto;
   max-width: 960px;
-  padding: 2.0875rem 2.45rem;
+  padding: 0.6875rem 1.8rem;
+  h1 {
+    margin-top: 0.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-wrapper {
+    padding: 1.45rem 1.0875rem;
+    header {
+      h1 {
+        font-size: 50px;
+        line-height: 40px;
+      }
+    }
+  }
+  .content-wrapper {
+    padding: 2.0875rem 2.45rem;
+  }
 }

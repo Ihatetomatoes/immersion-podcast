@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import image from '../images/img_petr-tichy-ihatetomatoes.jpg';
 
 const Bios = () => {
     return (
@@ -9,7 +10,7 @@ const Bios = () => {
         <div className="bios-box">
             <div className="bios-box__item">
                 <div className="bios-box__img">
-                    <img src="http://via.placeholder.com/460x350" />
+                    <img src={image} />
                 </div>
                 <div className="bios-box__copy">
                     <h3>Petr Tichy</h3>

@@ -9,9 +9,10 @@
     
 }
 .content-wrapper {
+    overflow: hidden;
     .player {
-        width: calc(100%);
-        margin: 0 -20px 30px -20px;
+        width: calc(100% - 20px);
+        margin: 0 -10px 30px -10px;
         @media (min-width: 950px) {
             margin-left: 0;
             margin-right: 0;

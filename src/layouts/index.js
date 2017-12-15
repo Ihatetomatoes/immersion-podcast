@@ -19,6 +19,18 @@ const Header = () => (
   </div>
 );
 
+const Footer = () => {
+  const date = new Date();
+  const year = date.getUTCFullYear();
+  return (
+    <div className="footer-wrapper">
+      <footer>
+        <p>&copy; {`${year} The Immersion Podcast`}</p>
+      </footer>
+    </div>
+  )
+};
+
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -39,6 +51,7 @@ const TemplateWrapper = ({ children }) => (
     <Header />
     {children()}
     <Bios />
+    <Footer />
   </div>
 );
 
