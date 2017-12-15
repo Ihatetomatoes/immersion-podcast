@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/the-immersion-podcast`,
+  pathPrefix: `/immersion-podcast`,
   siteMetadata: {
     title: `The Immersion Podcast`
   },
