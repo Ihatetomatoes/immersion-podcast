@@ -10,7 +10,7 @@ file: "https://traffic.libsyn.com/svgimmersion/Immersion_Podcast_E62017_Recap__2
 ## Show Links
  
 ### Resouces
-* Petr's Ihatetomatoes YouTube Cha* nnel - https://www.youtube.com/user/ihatetomatoesblog/community
+* Petr's Ihatetomatoes YouTube Channel - https://www.youtube.com/user/ihatetomatoesblog/community
 * Rob's Illustration Teardowns https://medium.com/tag/illustration-teardowns/latest
 https://vuejs.org/
 * Wordpress Theme API: https://codex.wordpress.org/Theme_Development#Theme_Customization_API
