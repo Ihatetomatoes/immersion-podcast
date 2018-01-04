@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import image from '../images/img_petr-tichy-ihatetomatoes.jpg';
+import image2 from '../images/img_rob-levin.jpg';
 
 const Bios = () => {
     return (
@@ -25,12 +26,12 @@ const Bios = () => {
             </div>
             <div className="bios-box__item alt">
                 <div className="bios-box__img">
-                    <img src="http://via.placeholder.com/460x350" />
+                    <img src={image2} />
                 </div>
                 <div className="bios-box__copy">
                     <h3>Rob Levin</h3>
                     <p className="bio-title">Designer / Developer</p>
-                    <p>Suspendisse blandit purus ac scelerisque finibus. Vivamus hendrerit erat malesuada interdum volutpat.</p>
+                    <p>Rob is a Senior UI/UX Developer at Mavenlink where he bridges the worlds of UX, Illustration, and Development for the company's flagship Project Management application.</p>
                     <ul>
                     <li><a href="https://www.instagram.com/roblevintennis/" target="_blank">Rob on Instagram</a></li>
                         <li><a href="https://dribbble.com/roblevintennis" target="_blank">Rob on Dribble</a></li>

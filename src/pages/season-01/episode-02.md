@@ -1,15 +1,15 @@
 ---
-title: "Interview: Amelia Bellamy-Royds"
-date: "2017-11-02"
-overview: "In this conversation with Amelia Bellamy-Royds, we talk about all things SVG 2 and beyond."
+title: "Content Management Systems"
+date: "2017-11-06"
+overview: "Today's Immersion Podcast is all about content management systems aka CMS."
 season: "Season 1"
-duration: "42 mins"
-file: "https://traffic.libsyn.com/svgimmersion/Immersion_Podcast_E4Styleguides.mp3"
+duration: "30 mins"
+file: "https://traffic.libsyn.com/svgimmersion/Immersion_PodcastEpisode_2_CMS.mp3"
 ---
 
 ## Show Links
 
-HarpJS for unicorn-ui.com
+HarpJS - http://harpjs.com/ used for unicorn-ui.com
 
 ### Big Guns
 
