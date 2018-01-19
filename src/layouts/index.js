@@ -39,7 +39,7 @@ const TemplateWrapper = ({ children }) => (
         {
           name: "description",
           content:
-            "The Immersion Podcast hosted by Robe Levin and Petr Tichy. Tune in for a weekly podcast where we talk about webdesign and front-end webdevelopment topics."
+            "The Immersion Podcast hosted by Rob Levin and Petr Tichy. Tune in for a weekly podcast where we talk about webdesign and front-end webdevelopment topics."
         },
         {
           name: "keywords",
