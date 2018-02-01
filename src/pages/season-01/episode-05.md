@@ -10,7 +10,7 @@ file: "https://traffic.libsyn.com/svgimmersion/Immersion_Podcast_E5_Front_End_Ne
 ## Show Links
  
 ### Front-end Updates
-* Ihatetomatoes YouTube Chennel - https://www.youtube.com/user/ihatetomatoesblog/community
+* Ihatetomatoes YouTube Channel - https://www.youtube.com/user/ihatetomatoesblog/community
 * GSDevTools on CodePen - https://codepen.io/collection/DjyzKV/
 * React v16.2.0 includes improved support for fragments - https://reactjs.org/blog/2017/11/28/react-v16.2.0-fragment-support.html
 * Learn CSS Grid in 5 Minutes - freeCodeCamp - https://medium.freecodecamp.org/learn-css-grid-in-5-minutes-f582e87b1228

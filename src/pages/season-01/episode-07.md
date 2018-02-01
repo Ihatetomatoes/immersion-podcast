@@ -10,7 +10,7 @@ file: "http://traffic.libsyn.com/force-cdn/highwinds/svgimmersion/Immersion_Podc
 ## Show Links
  
 ### Design Updates
-* Petr's Ihatetomatoes YouTube Channel - https://www.youtube.com/user/ihatetomatoesblog/community
+* Petr's Ihatetomatoes YouTube Channel - https://www.youtube.com/user/ihatetomatoesblog
 * Rob's Illustration Teardowns https://medium.com/tag/illustration-teardowns/latest
 
 ### We mentioned 
