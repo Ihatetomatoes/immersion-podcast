@@ -4,7 +4,7 @@ date: "2018-02-23"
 overview: "Today's Immersion Podcast—Petr and Rob talk about more illustration and JavaScript findings on the web…"
 season: "Season 1"
 duration: "42 mins"
-file: "http://traffic.libsyn.com/force-cdn/highwinds/svgimmersion/Immersion_Podcast_E8More_Illustration__JavaScript.mp3"
+file: "https://traffic.libsyn.com/force-cdn/highwinds/svgimmersion/Immersion_Podcast_E8More_Illustration__JavaScript.mp3"
 ---
 
 ## Show Links

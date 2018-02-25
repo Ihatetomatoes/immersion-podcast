@@ -4,7 +4,7 @@ date: "2018-02-01"
 overview: "Today's Immersion Podcast - Petr and Rob talk about illustration and animation on the web…"
 season: "Season 1"
 duration: "34 mins"
-file: "http://traffic.libsyn.com/force-cdn/highwinds/svgimmersion/Immersion_Podcast_E7Illustration__Animation_on_the_Web.mp3"
+file: "https://traffic.libsyn.com/force-cdn/highwinds/svgimmersion/Immersion_Podcast_E7Illustration__Animation_on_the_Web.mp3"
 ---
 
 ## Show Links
